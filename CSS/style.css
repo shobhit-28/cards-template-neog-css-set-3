@@ -18,6 +18,9 @@ hr {
     width: 15px;
 }
 
+body {
+    font-family: "Inter", sans-serif;
+}
 
 /* Question-1 */
 .card-q1 {
@@ -26,7 +29,6 @@ hr {
     margin: auto;
     text-align: left;
     padding: 0.1rem 1rem;
-    font-family: "Inter", sans-serif;
     border-radius: 0.5rem;
 }
 
@@ -47,7 +49,6 @@ hr {
     width: 500px;
     margin: auto;
     text-align: left;
-    font-family: "Inter", sans-serif;
     border-radius: 0.5rem;
     overflow: hidden;
     padding: 1rem 0;
@@ -74,10 +75,10 @@ hr {
     display: flex;
     flex-direction: column;
     position: relative;
-    font-family: "Inter", sans-serif;
     box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
     border-radius: 0.5rem;
     overflow: hidden;
+    margin: auto;
 }
 
 .card-q3 h1 {
@@ -112,3 +113,48 @@ hr {
 
 
 /* Question-4 */
+.card-q4 {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+    width: 450px;
+
+}
+
+.card-q4 .details {
+    margin: 1rem 0;
+}
+
+.card-q4 .details h1 {
+    margin: 0.5rem 1rem;
+    font-size: 1.75rem;
+}
+
+.card-q4 .details p {
+    margin: 1rem 1rem;
+    font-size: 0.9rem;
+}
+
+.card-q4 .details button {
+    margin: 1rem 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 0;
+    background-color: rgba(52, 84, 209, 1);
+    color: #fff;
+    border-radius: 0.35rem;
+    transition: 0.4s;
+}
+
+.card-q4 .details button:hover{
+    background-color: rgba(52, 84, 209, 0.92);
+    cursor: pointer;
+}
+.card-q4 .details button:active{
+    background-color: rgba(52, 84, 209, 1);
+}
+
+.card-q4 .img-container {
+    margin: 1rem 0;
+    display: flex;
+    margin-right: 0.5rem;
+}
